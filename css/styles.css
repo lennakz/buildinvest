@@ -1,0 +1,352 @@
+
+/* Common Setups */
+body {
+  position: relative;
+}
+h1 {
+  color: #0081DB;
+  font-family: 'Roboto', sans-serif;
+}
+.section {
+  padding: 60px 0;
+}
+
+
+/* Front Page Code */
+.front-page {
+  height: 100vh;
+  position: relative;
+  background-image: url("../images/front-picture.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center 90%;
+}
+.header-text {
+  width: 70%;
+  margin: auto;
+  padding: 10px;
+  position: absolute;
+  top: 30%;
+  left: 0;
+  right: 0;
+  background-color: rgba(255, 255, 255, 0.72);
+}
+.front-page-button {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  font-size: 50px;
+}
+.first-header {
+  color: #000000 !important;
+  font-size: 60px;
+}
+.first-letter {
+  color: #5C98DC;
+  font-family: 'Roboto', sans-serif;
+}
+.header-subtext {
+  font-size: 30px;
+  font-family: 'Great Vibes', cursive;
+}
+
+
+/* Navigation Bar Section */
+.navbar-fixed {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 9999 !important;
+}
+.navbar-fixed + .header {
+  margin-top: 70px;
+}
+
+
+/* Header Section */
+.header {
+  margin-top: 0;
+}
+.header .flex-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header img {
+}
+.header a {
+  font-size: 25px;
+}
+.header i {
+  font-size: 35px;
+}
+
+.header a:hover {
+  text-decoration: none;
+}
+
+
+/* Carousel base class */
+.carousel {
+  height: 500px;
+}
+.carousel-caption {
+  z-index: 10;
+}
+.carousel .item {
+  height: 500px;
+  background-color: #777;
+}
+.carousel-inner > .item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 500px;
+}
+
+
+/* About Us Section */
+.about-us {
+  position: relative;
+}
+.about-us img {
+}
+.about-us-content {
+  width: 60%;
+  margin: auto;
+  position: absolute;
+  top: 10%;
+  right: 0;
+  left: 0;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 20px;
+  border-radius: 5px;
+}
+.about-us-button a {
+  text-align: center;
+  width: 30%;
+  margin: auto;
+  font-size: 20px;
+  border: 1px solid #0081DB;
+  padding: 20px;
+  position: absolute;
+  top: 70%;
+  right: 0;
+  left: 0;
+  color: #0081DB;
+  background-color: rgba(255, 255, 255, 0.9);
+  transition: color 0.4s, background-color 1s;
+  text-transform: uppercase;
+}
+.about-us-button a:hover {
+  text-decoration: none;
+  background-color: #0081DB;
+  color: #ffffff;
+  transition: color 0.4s, background-color 1s;
+}
+
+
+/* Service Section Code */
+.service-box {
+  margin: 30px auto 0;
+  height: 250px;
+  padding: 15px 15px 0;
+  background-color: #F4F4F4;
+  box-shadow: 0 0 5px #888888;
+  transition: all 0.5s
+}
+.service-box h3 {
+  text-transform: uppercase;
+  font-size: 25px;
+  margin-bottom: 50px;
+}
+.service-box i {
+  font-size: 35px;
+}
+.service-box:hover {
+  background-color: #0081DB;
+  color: #fff;
+  transition: all 0.5s;
+}
+
+
+/* Portfolio Section Code */
+.portfolio {
+  background-color: #F4F4F4;
+}
+.portfolio-header-text {
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+.portfolio img {
+  width: 100%;
+  height: auto;
+  padding: 0;
+  margin: 0 auto 15px;
+  transform: scale(1.0, 1.0);
+}
+.portfolio img:hover {
+  box-shadow: 0 0 10px #0081DB;
+  transform: scale(1.05, 1.05);
+  cursor: pointer;
+}
+#project1, #project2 {
+  display: none;
+}
+
+
+/* Partners Section */
+.partners-img-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.partners img {
+  width: 250px;
+  height: auto;
+  margin: 20px auto;
+}
+.partners table {
+  border: none;
+  margin-top: 60px;
+}
+
+/* Contact Us Section */
+.contact {
+  background-color: #F4F4F4;
+  padding-bottom: 150px;
+}
+.contact-header-text {
+  margin: 0 auto 30px;
+}
+.submit-button {
+  font-size: 15px;
+  border: 1px solid #0081DB;
+  padding: 10px;
+  text-transform: uppercase;
+  color: #0081DB;
+  background-color: #F4F4F4;
+  transition: color 0.5s, background-color 0.5s;
+}
+.submit-button:hover {
+  background-color: #0081DB;
+  color: #ffffff;
+  transition: color 0.5s, background-color 0,5s;
+}
+
+
+/* Thank you Page */
+.back-button a {
+  text-align: center;
+  width: 30%;
+  margin: auto;
+  font-size: 20px;
+  border: 1px solid #0081DB;
+  padding: 20px;
+  position: absolute;
+  top: 100%;
+  right: 0;
+  left: 0;
+  color: #0081DB;
+  background-color: rgba(255, 255, 255, 0.9);
+  transition: color 0.4s, background-color 1s;
+  text-transform: uppercase;
+}
+.back-button a:hover {
+  text-decoration: none;
+  background-color: #0081DB;
+  color: #ffffff;
+  transition: color 0.4s, background-color 1s;
+}
+
+
+/* Scroll to top button style */
+.scroll-to-top {
+  display: none;
+  position: fixed;
+  bottom: 90px;
+  right: 20px;
+  font-size: 50px;
+}
+
+
+/* Footer */
+.footer {
+  display: flex;
+  align-items: flex-end;
+  width: 100%;
+  height: 100px;
+  background-color: #000;
+  color: #fff;
+}
+.copyright {
+  padding-bottom: 5px;
+  text-align: center;
+}
+
+
+/* Responsive */
+@media only screen and (max-width: 920px) {
+  .about-us p {
+    font-size: 12px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .about-us-content {
+    width: 80%;
+  }
+  .about-us-button a {
+    font-size: 12px;
+    padding: 10px;
+    top: 80%;
+  }
+  .header .flex-container {
+    flex-direction: column;
+    padding-bottom: 20px;
+  }
+  .table-responsive {
+    border: none;
+    width: 70%;
+    margin: 50px auto 40px;
+  }
+  .table-responsive table {
+    margin-top: 0;
+  }
+  .portfolio img:hover {
+    transform: scale(1, 1);
+  }
+  #project1, #project2 {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+  }
+}
+@media only screen and (max-width: 450px) {
+  .header a {
+    font-size: 20px;
+  }
+  .about-us-content {
+    position: static;
+    width: 100%;
+  }
+  .about-us-button {
+    position: relative;
+    margin: 30px auto;
+  }
+  #myCarousel {
+    display: none;
+  }
+  .table-responsive {
+    width: 95% !important;
+  }
+@media only screen and (max-width: 320px) {
+  .header-text {
+    width: 100%;
+    top: 10%;
+  }
+}
